@@ -1,7 +1,7 @@
 package ListMhsModel
 
 type ListMhs struct {
-	ID        int    `json:"id" form:"id"`
+//	ID        int    `json:"id" form:"id"`
 	UUID_CARD string `json:"uuid_card" form:"uuid_card"`
 	NIM       string `json:"nim" form:"nim"`
 	Nama_mhs  string `json:"nama_mhs" form:"nama_mhs"`
