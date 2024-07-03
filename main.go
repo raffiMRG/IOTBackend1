@@ -37,3 +37,17 @@ func main() {
 
 	r.Run(port)
 }
+
+// // Get Data
+// 54.79.63.199:1211/api/ListMahasiswa/GetData
+// 54.79.63.199:1211/api/ListAbsen/GetData
+
+// // Insert data
+// 54.79.63.199:1211/api/ListMahasiswa/InsertData
+// 54.79.63.199:1211/api/ListAbsen/InsertData
+
+// // Update data
+// 54.79.63.199:1211/api/ListMahasiswa/UpdateData
+
+// // Delete data
+// 54.79.63.199:1211/api/ListMahasiswa/DeleteData

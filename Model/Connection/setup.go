@@ -14,7 +14,7 @@ var DB *gorm.DB
 func ConnectDatabase() (*gorm.DB, error) {
 	// MYSQL DSN
 	// dsn := "root:@tcp(localhost:3306)/db_buku_tamu?charset=utf8mb4&parseTime=True&loc=Local"
-	dsn := "mrg:123123123@tcp(localhost:3306)/cobarelasi2?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := "mrg:123123123@tcp(localhost:3306)/cobarelasi1?charset=utf8mb4&parseTime=True&loc=Local"
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 
 	// POSGRESQL DSN

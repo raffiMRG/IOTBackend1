@@ -78,6 +78,7 @@ func GetAbsen(c *gin.Context) {
 	c.JSON(http.StatusOK, response)
 }
 
+// INSERT DATA TO TABLE AKUN
 func InsertData(c *gin.Context) {
 	var request ListMhsModel.ListMhs
 	var response Model.BaseResponseModel
